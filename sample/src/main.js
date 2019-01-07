@@ -3,6 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+//for semantic ui
+import SuiVue from 'semantic-ui-vue'
+import 'semantic-ui-css/semantic.min.css'
+
+
 Vue.config.productionTip = false
 
 new Vue({
