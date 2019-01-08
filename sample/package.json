@@ -9,6 +9,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@progress/kendo-charts-vue-wrapper": "^2018.3.1025",
+    "@progress/kendo-grid-vue-wrapper": "^2018.3.1025",
+    "@progress/kendo-inputs-vue-wrapper": "^2018.3.1025",
     "@progress/kendo-theme-default": "^3.0.0",
     "@progress/kendo-ui": "^2018.3.1219",
     "semantic-ui-css": "^2.4.1",
