@@ -9,6 +9,8 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@progress/kendo-theme-default": "^3.0.0",
+    "@progress/kendo-ui": "^2018.3.1219",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-vue": "^0.7.0",
     "vue": "^2.5.17",

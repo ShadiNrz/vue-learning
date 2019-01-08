@@ -7,6 +7,10 @@ import store from './store'
 import SuiVue from 'semantic-ui-vue'
 import 'semantic-ui-css/semantic.min.css'
 
+//for kendo ui
+import '@progress/kendo-ui'
+import '@progress/kendo-theme-default/dist/all.css'
+
 
 
 Vue.use(SuiVue);
