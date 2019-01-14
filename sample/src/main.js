@@ -29,10 +29,10 @@ import { MaskedTextBox,
 
 
 
-Vue.use(SuiVue);
-Vue.use(ChartInstaller);
-Vue.use(GridInstaller);
-Vue.use(InputsInstaller);
+Vue.use(SuiVue)
+Vue.use(ChartInstaller)
+Vue.use(GridInstaller)
+Vue.use(InputsInstaller)
 
 
 
