@@ -24,7 +24,7 @@ export default new Router({
     {
       path: '/report',
       name: 'report',
-      component: () => import('./views/report.vue')
+      component: () => import('./views/Report.vue')
     }
   ]
 })

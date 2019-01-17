@@ -50,7 +50,7 @@
 
 <script>
 // @ is an alias to /src
-import semantic from '@/components/semantic.vue'
+ import semantic from '@/components/semantic.vue'
 
 export default {
   name: 'home',

@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+window.$ = window.jQuery = require('jquery');
 //for semantic ui
 import SuiVue from 'semantic-ui-vue'
 import 'semantic-ui-css/semantic.min.css'
@@ -26,6 +27,12 @@ import { MaskedTextBox,
   RangeSlider,
   Switch,
   InputsInstaller } from '@progress/kendo-inputs-vue-wrapper'
+  import { Button,
+    ButtonGroup,
+    ButtonGroupButton,
+    ToolBar,
+    ToolBarItem,
+    ButtonsInstaller } from '@progress/kendo-buttons-vue-wrapper'
 
 
 
@@ -33,6 +40,8 @@ Vue.use(SuiVue)
 Vue.use(ChartInstaller)
 Vue.use(GridInstaller)
 Vue.use(InputsInstaller)
+Vue.use(ButtonsInstaller)
+
 
 
 
